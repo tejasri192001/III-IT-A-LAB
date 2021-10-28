@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Validation Form</title>
+		<h1>Validation Form</h1>
+	</head>
+	<body>
+		<script>
+			function Function(){
+				var x = document.getElementById("fname").value;
+				var y = document.getElementById("rnum").value;
+				var z = document.getElementById("num").value;
+				console.log(x);
+				console.log(y);
+				console.log(z);
+			}
+		</script>
+		<form action = "welcome.html">
+			<div>
+				Name : <input type = "text" id = "fname"><br>
+				Roll Number : <input type = "text" id = "rnum"><br>
+				Mobile Number : <input type = "text" id = "num"><br>
+				<button onclick = "Function()" type = "button">Submit</button><br>
+			</div>
+		</form>
+	</body>
+</html>
